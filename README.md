@@ -55,11 +55,13 @@ Add this server to your MCP client configuration:
 {
   "mcpServers": {
     "suno": {
+      "type": "stdio",
       "command": "node",
-      "args": ["E:\\CherryStudioDaTa\\Agent\\论文\\MCP-Suno\\dist\\index.js"],
+      "args": ["E:\\xxx\\xxx\\xxx\\suno-mcp-1313api\\dist\\index.js"],
       "env": {
         "SUNO_API_KEY": "your_api_key_here"
       }
+      "timeout": 600,
     }
   }
 }
